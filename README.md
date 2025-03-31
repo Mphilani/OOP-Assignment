@@ -27,19 +27,17 @@ class GamingPhone(Smartphone):
 
 smartphone = Smartphone("Apple", "iPhone 14", 20)
 gaming_phone = GamingPhone("Asus", "ROG Phone 5", 18, "Active Cooling")
-
-
 smartphone.display_info()
 gaming_phone.display_info()
-
 smartphone.use_app("Instagram")
 gaming_phone.charge()
 
+
+# OOP-Assignment//Polymorphism Challenge!
 class Vehicle:
     def move(Traveller):
-        """General method for moving (to be overridden)"""
         pass
-# OOP-Assignment//Polymorphism Challenge!
+
 class Car(Vehicle):
     def move(Traveller):
         print("Driving ")
