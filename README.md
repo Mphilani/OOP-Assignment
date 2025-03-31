@@ -34,3 +34,28 @@ gaming_phone.display_info()
 
 smartphone.use_app("Instagram")
 gaming_phone.charge()
+
+class Vehicle:
+    def move(Traveller):
+        """General method for moving (to be overridden)"""
+        pass
+# OOP-Assignment//Polymorphism Challenge!
+class Car(Vehicle):
+    def move(Traveller):
+        print("Driving ")
+
+class Plane(Vehicle):
+    def move(Traveller):
+        print("Flying ")
+
+class Bicycle(Vehicle):
+    def move(Traveller):
+        print("Pedaling ")
+
+car = Car()
+plane = Plane()
+bicycle = Bicycle()
+
+car.move()      
+plane.move()    
+bicycle.move()  
